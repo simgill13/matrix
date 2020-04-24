@@ -5,7 +5,6 @@ function display(m) {
   let element = document.getElementById("root");
   for (let i = 0; i < m.length; i++) {
     let node = document.createElement("div");
-    let brek = document.createElement("br");
     let textnode = document.createTextNode(m[i].join(" "));
     node.appendChild(textnode);
     document.getElementById("root").appendChild(node);
